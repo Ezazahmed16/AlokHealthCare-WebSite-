@@ -1,15 +1,21 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/shared/Navbar/Navbar";
+import Footer from "@/components/shared/Footer/Footer";
+import TopNavbar from "@/components/shared/TopNavbar/TopNavbar";
+// import { bangla } from "../../public/fonts/Li Ador Noirrit A-V1 Regular.ttf";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -23,11 +29,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="cupcake">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <TopNavbar />
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
