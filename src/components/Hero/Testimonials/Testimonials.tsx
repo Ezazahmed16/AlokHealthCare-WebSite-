@@ -12,7 +12,7 @@ const ArrowButton = ({ onClick, direction }: { onClick?: () => void; direction: 
     <button
       onClick={onClick}
       aria-label={isNext ? "Next testimonial" : "Previous testimonial"}
-      className={`absolute ${isNext ? "right-[-30px]" : "left-[-30px]"} top-1/2 transform -translate-y-1/2 z-20 text-[#00AEEF] hover:text-[#005A92] text-2xl focus:outline-none focus:ring-2 focus:ring-[#00AEEF] rounded-full`}
+      className={`absolute ${isNext ? "right-[-30px]" : "left-[-30px]"} top-1/2 transform -translate-y-1/2 z-20 text-[#00AEEF] hover:text-[#005A92] text-2xl focus:outline-none focus:ring-2 focus:ring-[#00AEEF] rounded-full hidden md:block`}
     >
       {isNext ? (
         <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,7 +35,8 @@ const Testimonials = () => {
     className: "testimonial-slider",
     centerMode: true,
     infinite: true,
-    centerPadding: "40px",
+    centerPadding: "10px",
+    dots: true,
     slidesToShow: 3,
     speed: 500,
     nextArrow: <ArrowButton direction="next" />,
@@ -70,13 +71,13 @@ const Testimonials = () => {
   return (
     <section className="py-10 bg-[#EBEBEB] overflow-hidden" aria-labelledby="testimonials-heading">
       <div className="container mx-auto px-4 relative">
-        <h1 id="testimonials-heading" className="text-4xl font-bold text-[#005A92] text-center py-10">
+        <h1 id="testimonials-heading" className="text-xl md:text-4xl font-bold text-[#005A92] text-center py-10">
           আপনার মতামত আমাদের প্রেরণা
         </h1>
 
         <Slider {...settings}>
           {testimonials.map(({ id, name, text, boldText }) => (
-            <div key={id} className="px-2 py-16">
+            <div key={id} className="px-2 md:px-5 py-16">
               <article className="bg-white shadow-lg rounded-lg pt-16 pb-6 px-6 relative h-[380px] flex flex-col justify-between" aria-label={`Testimonial from ${name}`}>
                 {/* Decorative Icon */}
                 <div className="absolute -top-20 left-1/2 transform -translate-x-1/2 z-20" aria-hidden="true">
@@ -89,7 +90,7 @@ const Testimonials = () => {
                 </div>
 
                 {/* Testimonial Text */}
-                <blockquote className="text-gray-700 text-center text-lg font-medium leading-relaxed flex-grow">
+                <blockquote className="text-gray-700 text-center text-sm md:text-lg font-medium leading-relaxed flex-grow">
                   “{text.split(boldText)[0]}
                   <span className="font-bold text-black">{boldText}</span>
                   {text.split(boldText)[1]}”
