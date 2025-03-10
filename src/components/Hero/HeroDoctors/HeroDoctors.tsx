@@ -6,6 +6,7 @@ import Image from "next/image";
 import { MdArrowRightAlt } from "react-icons/md";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import CommonButton from "@/components/shared/CommonButton/CommonButton";
 
 /* Arrow Button Component */
 const ArrowButton = ({ onClick, direction }: { onClick?: () => void; direction: "prev" | "next" }) => {
@@ -113,9 +114,10 @@ const HeroDoctors = () => {
                 </Slider>
 
                 <div className="py-3 md:py-5 flex justify-center">
-                    <button className="p-4 md:p-9 border border-[#dedede] bg-[#FFDE24] rounded-full flex items-center justify-center">
+                    {/* <button className="p-4 md:p-9 border border-[#dedede] bg-[#FFDE24] rounded-full flex items-center justify-center">
                         <span className="text-[#001522] text-xl">সমস্ত বিশেষজ্ঞ দেখুন</span>
-                    </button>
+                    </button> */}
+                    <CommonButton>সমস্ত বিশেষজ্ঞ দেখুন</CommonButton>
                 </div>
             </div>
         </section>

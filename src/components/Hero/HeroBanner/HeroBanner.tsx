@@ -1,3 +1,4 @@
+import CommonButton from '@/components/shared/CommonButton/CommonButton';
 import React from 'react';
 
 const HeroBanner = () => {
@@ -7,7 +8,7 @@ const HeroBanner = () => {
                 className="hero min-h-[270px] md:min-h-screen image-full"
                 style={{
                     backgroundImage:
-                        "url(https://s3-alpha-sig.figma.com/img/0c84/5827/aeb95a0276025a0d3412970f9d7c0467?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=TqrJhX1WKs9-H8FD7lJEdpZRMNrd2iIhwphIoKmbLHdPKbTcRlsGvjWaYcnuv~9tPWFh3XZv0HSAfOE-XZxzfAYbYAXP76Tkx~zgqWm7fSpkJa0Z75zdD2aR7wsefGfx71nI-BTKhVmS88y-Ntgjm8cGwQ3XWri0iJqCa~yNbovANy1nSaQ5OeGHuUl2F1VBsNTTPkUufQ0UBEplFUQgaAZL2qsDSWjdQq7~O4BLleJt2afyoHVyYcIKtx9V5WxV4ojqQmOHzTK1UewmtqOhh~I6a4e2yLuU1jrMZ9O1-fkV83kPV0JKhZATQyYmggjgHdopvcV~wuUMVRp8GboB7Q__)",
+                        "url(https://s3-alpha-sig.figma.com/img/0c84/5827/aeb95a0276025a0d3412970f9d7c0467?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=n2rPvWWmjgOJuio05xBJM7rr-Vn53ldYR1dKHu1tjYSZMOFF5iSoA5M04Q4kKD8gpZ0V169Z-A3fFcyM6I7LjB1XuztXHtvOrnKB8ZHCf6v92FZAT4QGEux4zGDtYOBwvcaW9y-1B6IhRAtHhW64x~~g9UjVZ2KwpaLOGx2kyAtE~vsrvYdmwDTVmT8YaQOIqgwgP49t3rG98IeWsYpj2JNzJMEx0u0EP0ACgXXI~6WPzi0az308qXww360t5RJaAyGJCHtdlj7sG~Jd7hlXP2MR649tJX9KVsMU3wsM7xwtc2p-UT0hdKaisDxnCJN~qBNXugDWmEa51SZilZIY1A__)",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}
@@ -28,9 +29,12 @@ const HeroBanner = () => {
                             পরামর্শ। সাশ্রয়ী মূল্যে দ্রুত ও নির্ভরযোগ্য স্বাস্থ্যসেবা পেতে আলোক হেলথকেয়ার অ্যান্ড ডায়াগনস্টিক
                             সল্যুশন আপনার নির্ভরযোগ্য ঠিকানা।
                         </p>
-                        <button className="btn bg-[#FFDE24] rounded-full border-0">
+                        {/* <button className="btn bg-[#FFDE24] rounded-full border-0">
                             <span className="custom-bangla-font text-[#001522] px-4 md:px-5">সেবা সম্পর্কে জানুন</span>
-                        </button>
+                        </button> */}
+                        <CommonButton>
+                            সেবা সম্পর্কে জানুন
+                        </CommonButton>
                     </div>
                 </div>
             </div>
