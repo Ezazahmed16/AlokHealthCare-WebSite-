@@ -33,7 +33,7 @@ const Navbar = () => {
                                 <Link href='/ourstorys'>আমাদের গল্প</Link>
                             </li>
                             <li className='border-b-2 border-[#FFDE24] border-opacity-50'>
-                                <Link href='/'>ডাক্তারের সময়সূচী</Link>
+                                <Link href='/doctors'>ডাক্তারের সময়সূচী</Link>
                             </li>
                             <li className='border-b-2 border-[#FFDE24] border-opacity-50'>
                                 <Link href='/'>পরীক্ষার খরচ ও বিস্তারিত</Link>
@@ -50,7 +50,7 @@ const Navbar = () => {
                     <ul className="menu menu-horizontal gap-6 w-full justify-center">
                         <li><Link href='/'>হোম</Link></li>
                         <li><Link href='/ourstorys'>আমাদের গল্প</Link></li>
-                        <li><Link href='/'>ডাক্তারের সময়সূচী</Link></li>
+                        <li><Link href='/doctors'>ডাক্তারের সময়সূচী</Link></li>
                         <li><Link href='/'>পরীক্ষার খরচ ও বিস্তারিত</Link></li>
                         <li><Link href='/contact'>যোগাযোগ করুন</Link></li>
                     </ul>
