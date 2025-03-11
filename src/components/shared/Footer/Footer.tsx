@@ -1,7 +1,3 @@
-// Footer.tsx
-
-"use client";
-
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -76,8 +72,8 @@ const Footer = () => {
         </div>
 
         {/* Right Section */}
-        <div className="space-y-4 text-center grid grid-cols-2 md:block">
-          <div className="flex items-start space-x-3 col-span-2 mx-auto">
+        <div className="space-y-4 text-center grid grid-cols-2 md:block justify-center items-center">
+          <div className="flex items-start gap-4 col-span-2 mx-auto">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_24_215)">
                 <path d="M20.62 8.45C19.57 3.83 15.54 1.75 12 1.75C12 1.75 12 1.75 11.99 1.75C8.45997 1.75 4.41997 3.82 3.36997 8.44C2.19997 13.6 5.35997 17.97 8.21997 20.72C9.27997 21.74 10.64 22.25 12 22.25C13.36 22.25 14.72 21.74 15.77 20.72C18.63 17.97 21.79 13.61 20.62 8.45ZM12 13.46C10.26 13.46 8.84997 12.05 8.84997 10.31C8.84997 8.57 10.26 7.16 12 7.16C13.74 7.16 15.15 8.57 15.15 10.31C15.15 12.05 13.74 13.46 12 13.46Z" fill="#00AEEF" />
@@ -89,31 +85,32 @@ const Footer = () => {
                 </clipPath>
               </defs>
             </svg>
-
             <p className="">
-              বাড়ি নং XXX, সড়ক নং XXX, রোডনাম,<br />নগর - XXX, বাংলাদেশ
+              বাড়ি নং XXX, সড়ক নং XXX, রোডনাম, নগর - XXX, বাংলাদেশ
             </p>
           </div>
-          <div className="flex items-center space-x-3">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0_24_218)">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6395 17.3273C19.0221 19.2033 16.6036 20.1392 14.8756 19.9832C12.5157 19.7699 9.9478 18.5179 7.99853 17.1393C5.1333 15.1127 2.4494 11.9782 0.885453 8.65163C-0.219841 6.30105 -0.467832 3.41049 1.17611 1.2679C1.78409 0.475927 2.44273 0.0532752 3.42936 0.00394359C4.79998 -0.0627207 4.99197 0.721251 5.46262 1.94254C5.81328 2.85584 6.28126 3.78781 6.54258 4.73444C7.0319 6.50104 5.3213 6.57437 5.1053 8.01832C4.97197 8.92896 6.0746 10.1502 6.57325 10.7996C7.5344 12.0641 8.71159 13.1488 10.0505 14.0034C10.8104 14.4821 12.0344 15.3447 12.9037 14.8687C14.2423 14.1354 14.117 11.8782 15.9876 12.6422C16.9569 13.0368 17.8955 13.6061 18.8208 14.1048C20.2514 14.8741 20.1848 15.6714 19.6395 17.3273C20.0474 16.09 19.2315 18.5646 19.6395 17.3273Z" fill="#00AEEF" />
-              </g>
-              <defs>
-                <clipPath id="clip0_24_218">
-                  <rect width="24" height="24" fill="white" />
-                </clipPath>
-              </defs>
-            </svg>
-            <p>+৮৮ ০১XXXXXXXXX</p>
+          <div className="grid grid-cols-2 md:grid-cols-1 gap-4 col-span-2">
+            <div className="flex items-center gap-4 justify-center md:justify-start">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_24_218)">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6395 17.3273C19.0221 19.2033 16.6036 20.1392 14.8756 19.9832C12.5157 19.7699 9.9478 18.5179 7.99853 17.1393C5.1333 15.1127 2.4494 11.9782 0.885453 8.65163C-0.219841 6.30105 -0.467832 3.41049 1.17611 1.2679C1.78409 0.475927 2.44273 0.0532752 3.42936 0.00394359C4.79998 -0.0627207 4.99197 0.721251 5.46262 1.94254C5.81328 2.85584 6.28126 3.78781 6.54258 4.73444C7.0319 6.50104 5.3213 6.57437 5.1053 8.01832C4.97197 8.92896 6.0746 10.1502 6.57325 10.7996C7.5344 12.0641 8.71159 13.1488 10.0505 14.0034C10.8104 14.4821 12.0344 15.3447 12.9037 14.8687C14.2423 14.1354 14.117 11.8782 15.9876 12.6422C16.9569 13.0368 17.8955 13.6061 18.8208 14.1048C20.2514 14.8741 20.1848 15.6714 19.6395 17.3273C20.0474 16.09 19.2315 18.5646 19.6395 17.3273Z" fill="#00AEEF" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_24_218">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <p>+৮৮ ০১XXXXXXXXX</p>
+            </div>
+            <div className="flex items-center gap-4 justify-center md:justify-start">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17 3.5H7C4 3.5 2 5 2 8.5V15.5C2 19 4 20.5 7 20.5H17C20 20.5 22 19 22 15.5V8.5C22 5 20 3.5 17 3.5ZM17.47 9.59L14.34 12.09C13.68 12.62 12.84 12.88 12 12.88C11.16 12.88 10.31 12.62 9.66 12.09L6.53 9.59C6.21 9.33 6.16 8.85 6.41 8.53C6.67 8.21 7.14 8.15 7.46 8.41L10.59 10.91C11.35 11.52 12.64 11.52 13.4 10.91L16.53 8.41C16.85 8.15 17.33 8.2 17.58 8.53C17.84 8.85 17.79 9.33 17.47 9.59Z" fill="#00AEEF" />
+              </svg>
+              <p className="font-sans">info@example.com</p>
+            </div>
           </div>
-          <div className="flex items-center space-x-3">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M17 3.5H7C4 3.5 2 5 2 8.5V15.5C2 19 4 20.5 7 20.5H17C20 20.5 22 19 22 15.5V8.5C22 5 20 3.5 17 3.5ZM17.47 9.59L14.34 12.09C13.68 12.62 12.84 12.88 12 12.88C11.16 12.88 10.31 12.62 9.66 12.09L6.53 9.59C6.21 9.33 6.16 8.85 6.41 8.53C6.67 8.21 7.14 8.15 7.46 8.41L10.59 10.91C11.35 11.52 12.64 11.52 13.4 10.91L16.53 8.41C16.85 8.15 17.33 8.2 17.58 8.53C17.84 8.85 17.79 9.33 17.47 9.59Z" fill="#00AEEF" />
-            </svg>
 
-            <p>info@example.com</p>
-          </div>
           <button className="bg-[#FFDE24] text-[#001522] font-semibold px-6 py-3 rounded-full hover:bg-yellow-400 transition hidden md:flex">
             সরাসরি যোগাযোগ করুন
           </button>

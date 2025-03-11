@@ -8,7 +8,7 @@ const Navbar = () => {
                 {/* Left side (Booking button in responsive) */}
                 <div className="navbar-start w-full md:w-auto flex justify-between md:justify-start py-3">
                     <div className="md:hidden">
-                        <button className='bg-[#001522] text-[#F9FAFB] rounded-full px-3 py-5 text-[14px] custom-bangla-font'>
+                        <button className='bg-[#001522] text-[#F9FAFB] rounded-full px-4 py-5 md:py-8 text-[14px] custom-bangla-font'>
                             আজই অ্যাপয়েন্টমেন্ট নিন
                         </button>
                     </div>
@@ -39,7 +39,7 @@ const Navbar = () => {
                                 <Link href='/'>পরীক্ষার খরচ ও বিস্তারিত</Link>
                             </li>
                             <li className='border-b-2 border-[#FFDE24] border-opacity-50'>
-                                <Link href='/'>যোগাযোগ করুন</Link>
+                                <Link href='/contact'>যোগাযোগ করুন</Link>
                             </li>
                         </ul>
                     </div>
@@ -52,7 +52,7 @@ const Navbar = () => {
                         <li><Link href='/ourstorys'>আমাদের গল্প</Link></li>
                         <li><Link href='/'>ডাক্তারের সময়সূচী</Link></li>
                         <li><Link href='/'>পরীক্ষার খরচ ও বিস্তারিত</Link></li>
-                        <li><Link href='/'>যোগাযোগ করুন</Link></li>
+                        <li><Link href='/contact'>যোগাযোগ করুন</Link></li>
                     </ul>
                 </div>
 
