@@ -4,7 +4,7 @@ const StoryBanner = () => {
         <div
             className="hero min-h-[360px] md:min-h-[380px]"
             style={{
-                backgroundImage: "url(https://s3-alpha-sig.figma.com/img/188e/83cb/8d2396305728e405dda997bbc02a5cd2?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=WTjgAh5zCeAC-15HRx00RULk52bWlbTvytwpzIL7oWU76YJlFc-vEmXqIYF14Du-03j-oCI7fYTuSC65gsJBsikMR8UB7OEBS05EzTPTKeiZc8Dt3j6bY07yghz-6FfZnW2DoYs92SkcONqmqYH0uXJFcBrabFlLNeJo3YU6X~LqVVf8Vk416b9wv4Axho4gos2e5zjnsv-v-X1mQG5V9ll~7Hb8UYrdQSFTQkdiBPzLH1sR0Ht3fKObuplHI3~3dDzFeBhv8dA-KRj-rLBEbVYFwouQ~aAg~z9C~a2C6ZCOf5SpDP-Jw16GijC8L3T5uDKlHyWv94X7mpELHcn31A__)",
+                backgroundImage: "url(https://s3-alpha-sig.figma.com/img/188e/83cb/8d2396305728e405dda997bbc02a5cd2?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=EETGcm0s~h1NGyfyTZa-UCfTbB8IFvG59GQcAcSq7tWuaEvtUzJLm-jyakOfWFkYGN6tF6kkg-8EvL~aE~n8ma1y4UtKNOHY5WvRA8IM5x3KPs7B1ApBtv0M3BFknErcUudRJ0wTEOJ6NzdrxiKFRDq~f8Sr-8PqE6dPJH9JPhhuPeLH14mX8RUQrArlQ~eyZgQNppphSnx1ivVcJ34cdEi8T7JV2fKRQbZM~OdykFe~YNNJ33hh3pQ~y6hNQmp-TOTVgb71qQUPP0O0DwFDhrKqG~AlNFUiWPphHx8UZG~pis6ejT6I2MkiuXKAXHEBme23EE3d2OsLeuqGWtaVuA__)",
             }}>
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-neutral-content text-center custom-bangla-font">
