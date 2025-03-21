@@ -13,15 +13,15 @@ const HeroBanner = () => {
                     backgroundPosition: "center",
                 }}
             >
-                <div className="hero-overlay bg-opacity-60"></div>
+                <div className="hero-overlay bg-opacity-70"></div>
                 <div className="hero-content text-start">
-                    <div className="w-full py-10 md:py-5">
-                        <h1 className="custom-bangla-font text-2xl md:text-6xl text-[#F9FAFB] text-left">
+                    <div className="container mx-auto py-5">
+                        <h1 className="custom-bangla-font text-2xl md:text-6xl text-[#F9FAFB] text-left font-bold" style={{ textShadow: '0px 0px 20px rgba(0, 0, 0, 0.25)' }}>
                             <span>সুস্থ জীবনের শুরু এখানে,</span>
-                            <span className="block">আলোক হেলথ কেয়ার</span>
-                            <span>এন্ড ডায়াগনস্টিক সলিউশন</span>
+                            <span className="block my-1">আলোক হেলথ কেয়ার</span>
+                            <span>এন্ড ডায়াগনস্টিক সলিউশন</span>
                         </h1>
-                        <p className="my-5 text-[#F9FAFB] text-sm md:text-lg">
+                        <p className="my-4 text-[#F9FAFB] text-sm md:text-lg">
                             আধুনিক স্বাস্থ্যসেবা কেন্দ্র, যেখানে নির্ভুল ডায়াগনস্টিক টেস্ট, উন্নত চিকিৎসা পরামর্শ এবং
                             মানসম্পন্ন স্বাস্থ্যসেবা প্রদান করা হয়। দক্ষ চিকিৎসক ও অভিজ্ঞ ল্যাব টেকনিশিয়ানদের মাধ্যমে
                             সর্বাধুনিক প্রযুক্তি ব্যবহার করে আমরা রোগ নির্ণয় ও চিকিৎসা নিশ্চিত করি। আমাদের সেবার মধ্যে
@@ -29,16 +29,13 @@ const HeroBanner = () => {
                             পরামর্শ। সাশ্রয়ী মূল্যে দ্রুত ও নির্ভরযোগ্য স্বাস্থ্যসেবা পেতে আলোক হেলথকেয়ার অ্যান্ড ডায়াগনস্টিক
                             সল্যুশন আপনার নির্ভরযোগ্য ঠিকানা।
                         </p>
-                        {/* <button className="btn bg-[#FFDE24] rounded-full border-0">
-                            <span className="custom-bangla-font text-[#001522] px-4 md:px-5">সেবা সম্পর্কে জানুন</span>
-                        </button> */}
                         <CommonButton>
                             সেবা সম্পর্কে জানুন
                         </CommonButton>
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     );
 };
 

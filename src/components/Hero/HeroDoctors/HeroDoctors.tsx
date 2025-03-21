@@ -103,7 +103,7 @@ const HeroDoctors = () => {
                                     <p><span className="font-bold text-xs md:text-sm">যোগাযোগ: </span>{heroDoctor.visitingTime}</p>
                                     <p>({heroDoctor.visitingHour})</p>
                                     <div className="card-actions justify-center py-2">
-                                        <button className="border-2 border-[#00AEEF] rounded-full p-6 flex items-center justify-center">
+                                        <button className="border-2 border-[#00AEEF] rounded-full py-2 px-4 md:py-3 md:px-6 flex items-center justify-center">
                                             বিস্তারিত দেখুন <MdArrowRightAlt className="text-[#001522] h-6 w-6 ml-2" />
                                         </button>
                                     </div>
@@ -114,9 +114,6 @@ const HeroDoctors = () => {
                 </Slider>
 
                 <div className="py-3 md:py-5 flex justify-center">
-                    {/* <button className="p-4 md:p-9 border border-[#dedede] bg-[#FFDE24] rounded-full flex items-center justify-center">
-                        <span className="text-[#001522] text-xl">সমস্ত বিশেষজ্ঞ দেখুন</span>
-                    </button> */}
                     <CommonButton>সমস্ত বিশেষজ্ঞ দেখুন</CommonButton>
                 </div>
             </div>
