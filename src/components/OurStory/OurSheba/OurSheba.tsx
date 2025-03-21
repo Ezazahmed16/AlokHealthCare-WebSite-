@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const OurSheba = () => {
@@ -26,11 +27,12 @@ const OurSheba = () => {
             {/* Image Section */}
             <div className="lg:w-1/3 flex justify-center items-center bg-[#005A92] 
             w-[360px] md:w-[435px] h-[176px] md:h-[654px] mx-auto relative">
-                <img 
-                    src="https://s3-alpha-sig.figma.com/img/0117/66a4/eba32c651f71bcc8a87be8ff779fe050?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=swGIZ2wJ50JPGhKZnvw6BdOdyWSvUWLGp95t1HY-mwjvF6JYEruaQqtNBciRFpCY1uMSEVx2n~pID1u2902liJ70u0chU9DLx9cjuWRErCC30i8P6Vxi3QmxUmbNjcKy1JtRDe~ELoN7p0kj3K85NE212BQv71jtBVB8-gEMiYj0IBif8tR6b0PLTCbPBVwEgHhjLTAZYOqKxrbX3Sr4Ji2MiKFM5hN0qhig7nAo98FrjSfIeuyD1EFwyU~I35RvX9~q3hnOCURLUs9t3xQsF-9FrZEFsL1bW8b1RSem3AJoKSp0BqtjUimxSNzVvKjhh-RWPCMem7NenG8yAUw40A__" 
+                {/* <img 
+                    src="" 
                     alt="Our Services" 
                     className="min-h-[239px] md:min-h-[437px] min-w-[328px] md:min-w-[600px] rounded-2xl absolute justify-center items-center mx-auto top-10 md:top-1/2 md:transform md:-translate-y-1/2 left-auto md:-left-2/4 px-5"
-                />
+                /> */}
+                <Image src="https://s3-alpha-sig.figma.com/img/0117/66a4/eba32c651f71bcc8a87be8ff779fe050?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=swGIZ2wJ50JPGhKZnvw6BdOdyWSvUWLGp95t1HY-mwjvF6JYEruaQqtNBciRFpCY1uMSEVx2n~pID1u2902liJ70u0chU9DLx9cjuWRErCC30i8P6Vxi3QmxUmbNjcKy1JtRDe~ELoN7p0kj3K85NE212BQv71jtBVB8-gEMiYj0IBif8tR6b0PLTCbPBVwEgHhjLTAZYOqKxrbX3Sr4Ji2MiKFM5hN0qhig7nAo98FrjSfIeuyD1EFwyU~I35RvX9~q3hnOCURLUs9t3xQsF-9FrZEFsL1bW8b1RSem3AJoKSp0BqtjUimxSNzVvKjhh-RWPCMem7NenG8yAUw40A__" alt="Our Services" width={600} height={437} className="min-h-[239px] md:min-h-[437px] min-w-[328px] md:min-w-[600px] rounded-2xl absolute justify-center items-center mx-auto top-10 md:top-1/2 md:transform md:-translate-y-1/2 left-auto md:-left-2/4 px-5" />
             </div>
         </div>
     );

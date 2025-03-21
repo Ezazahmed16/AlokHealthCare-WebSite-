@@ -2,7 +2,7 @@
 const ContactForm = () => {
     return (
         <div className="bg-[#F9FAFB] ">
-            <div className="p-10 bg-[#F3F3F3]">
+            <div className="g-[#F3F3F3]">
                 <div className="block md:hidden text-center">
                     <h1 className='text-[#005A92] text-xl md:text-4xl pb-8 font-bold'>যোগাযোগ করুন</h1>
                     <p className='text-[#424344] text-sm md:text-lg pb-5'>

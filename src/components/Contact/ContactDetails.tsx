@@ -6,14 +6,14 @@ const ContactDetails = () => {
             <div className="custom-bangla-font">
                 {/* title */}
                 <div className="hidden md:block">
-                    <h1 className='text-[#005A92] text-xl md:text-4xl pb-8'>যোগাযোগ করুন</h1>
+                    <h1 className='text-[#005A92] text-xl md:text-4xl pb-6 font-semibold'>যোগাযোগ করুন</h1>
                     <p className='text-[#424344] text-sm md:text-lg pb-5'>
                         আপনার যেকোনো স্বাস্থ্য সংক্রান্ত প্রশ্ন, পরীক্ষা সংক্রান্ত তথ্য, বা অ্যাপয়েন্টমেন্ট
                         বুকিং-এর জন্য  আমাদের  সাথে  যোগাযোগ  করুন| আমরা  সবসময়  আপনার
                         সেবায় প্রস্তুত|
                     </p>
                 </div>
-                <div className="p-10">
+                <div className="">
                     <div className="flex items-center justify-start gap-3 mt-4">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_175_721)">
@@ -60,8 +60,8 @@ const ContactDetails = () => {
                         </p>
                     </div>
 
-                    <div className="bg-[#F9FAFB] md:w-[322px] md:h-[78px] flex justify-center items-center p-5 gap-4 rounded-xl mt-5"
-                        style={{ border: '1px solid var(--Heading, #005A92);' }}
+                    <div className="bg-[#F9FAFB] md:w-[322px] md:h-[78px] flex justify-center items-center p-5 gap-4 rounded-xl mt-5 border-r-8"
+                        style={{ border: '1px solid var(--Heading, #005A92)' }}
                     >
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2ZM16.35 15.57C16.21 15.81 15.96 15.94 15.7 15.94C15.57 15.94 15.44 15.91 15.32 15.83L12.22 13.98C11.45 13.52 10.88 12.51 10.88 11.62V7.52C10.88 7.11 11.22 6.77 11.63 6.77C12.04 6.77 12.38 7.11 12.38 7.52V11.62C12.38 11.98 12.68 12.51 12.99 12.69L16.09 14.54C16.45 14.75 16.57 15.21 16.35 15.57Z" fill="#00AEEF" />
